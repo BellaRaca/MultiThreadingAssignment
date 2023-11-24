@@ -57,8 +57,8 @@ public class MusicPlayerControllerMainTask {
             }
         });
 
-        thread1.start();
         thread2.start();
+        thread1.start();
     }
 
     /**
